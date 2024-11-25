@@ -2,7 +2,7 @@
     "id":1,
     "nombre": "Blue lock",
     "precio": "8000",
-    "imagen": "./assets/img/libros-mangas/bluelock-tomo-12.png",
+    "imagen": "../assets/img/libros-mangas/bluelock-tomo-12.png",
     "descripcion": "Yoichi es un joven al que acaban de eliminar junto a su equipo. De pronto recibe una carta donde lo convocan para participar en un extraño experimento.",
     "tomo":"12",
     "stock": "10"
@@ -11,7 +11,7 @@
     "id":2,
     "nombre": "Death Note",
     "precio": "9000",
-    "imagen": "./assets/img/libros-mangas/deathnote-tomo-2.png",
+    "imagen": "../assets/img/libros-mangas/deathnote-tomo-2.png",
     "descripcion": "Cuando un estudiante japonés se adueña de un cuaderno místico, descubre que tiene la facultad de matar a cualquiera cuyo nombre escriba en el cuaderno.",
     "tomo":"2",
     "stock": "5"
@@ -20,7 +20,7 @@
     "id":3,
     "nombre": "One Piece",
     "precio": "9500",
-    "imagen": "../assets/img/libros-mangas/onepiece-tomo-22.png",
+    "imagen": "./assets/img/libros-mangas/onepiece-tomo-22.png",
     "descripcion": " Acompaña a Monkey D. Luffy y su adorable tripulación pirata mientras descubren el verdadero significado del poder y la justicia.",
     "tomo":"22",
     "stock": "4"
@@ -29,7 +29,7 @@
     "id":4,
     "nombre": "Shumatsu no Valkyrie",
     "precio": "19000",
-    "imagen": "../assets/img/libros-mangas/shumatsu-tomo-1.png",
+    "imagen": "./assets/img/libros-mangas/shumatsu-tomo-1.png",
     "descripcion": "La humanidad está condenada! Los dioses de todas las religiones se reúnen cada 1.000 años en el Valhalla para decidir el destino de la raza humana",
     "tomo":"1",
     "stock":"10"
@@ -38,7 +38,7 @@
     "id":5,
     "nombre": "Ajin",
     "precio": "13000",
-    "imagen": "../assets/img/libros-mangas/ajin-tomo-8.png",
+    "imagen": "./assets/img/libros-mangas/ajin-tomo-8.png",
     "descripcion": "Un chico descubre que es un Ajin y logra escapar antes de que las autoridades lo sometan a experimentos. Otros Ajin planean la resistencia",
     "tomo":"8",
     "stock": "5"
@@ -47,7 +47,7 @@
     "id":6,
     "nombre": "Slam Dunk",
     "precio": "15000",
-    "imagen": "../assets/img/libros-mangas/slam-tomo-11.png",
+    "imagen": "./assets/img/libros-mangas/slam-tomo-11.png",
     "descripcion": "Hanamichi Sakuragi, un adolescente que no es buen estudiante, se une al equipo de baloncesto. Descubre su talento para ese deporte y lucha por el campeonato.",
     "tomo":"11",
     "stock": "5"
@@ -56,7 +56,7 @@
     "id":7,
     "nombre": "Spy x Family",
     "precio": "15000",
-    "imagen": "../assets/img/libros-mangas/spyxfamily-tomo-1.png",
+    "imagen": "./assets/img/libros-mangas/spyxfamily-tomo-1.png",
     "descripcion": "El agente Twilight, el mejor espía de la nación de Westalis, reúne una familia falsa para infiltrarse en una escuela privada de élite",
     "tomo":"1",
     "stock": "5"
@@ -65,7 +65,7 @@
     "id":8,
     "nombre": "Tokyo Ghoul:re",
     "precio": "15000",
-    "imagen": "../assets/img/libros-mangas/tokyore-tomo-1.png",
+    "imagen": "./assets/img/libros-mangas/tokyore-tomo-1.png",
     "descripcion": "Un día Kaneki Ken un joven de 18 años que cursa la Universidad conoce a una chica en un restaurante, pero luego se da cuenta que ella es un Ghoul.",
     "tomo":"8",
     "stock": "5"
