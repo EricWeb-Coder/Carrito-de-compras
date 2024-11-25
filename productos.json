@@ -2,7 +2,7 @@
     "id":1,
     "nombre": "Blue lock",
     "precio": "8000",
-    "imagen": "../assets/img/libros-mangas/bluelock-tomo-12.png",
+    "imagen": "./assets/img/libros-mangas/bluelock-tomo-12.png",
     "descripcion": "Yoichi es un joven al que acaban de eliminar junto a su equipo. De pronto recibe una carta donde lo convocan para participar en un extraño experimento.",
     "tomo":"12",
     "stock": "10"
@@ -11,7 +11,7 @@
     "id":2,
     "nombre": "Death Note",
     "precio": "9000",
-    "imagen": "../assets/img/libros-mangas/deathnote-tomo-2.png",
+    "imagen": "./assets/img/libros-mangas/deathnote-tomo-2.png",
     "descripcion": "Cuando un estudiante japonés se adueña de un cuaderno místico, descubre que tiene la facultad de matar a cualquiera cuyo nombre escriba en el cuaderno.",
     "tomo":"2",
     "stock": "5"
