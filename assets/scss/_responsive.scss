@@ -1,0 +1,47 @@
+
+@media (max-width: 992px){
+    .productos-carrito{
+        figure{
+            width: 28%;
+            img{
+                width: 100%;
+            }
+            p{
+                font-size: .8em;
+                line-height: 1.3em;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    .menu{
+        width: 100%;
+        overflow: hidden;
+        ul{
+            width: 30%;
+        }
+    }
+    .filtros{
+        select{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
+    .productos-carrito{
+        width: 100%;
+        figure{
+            width: 70%;
+        }
+        p{
+            font-size: 1em;
+            line-height: 1.2em;
+        }
+        
+    }
+    .productos-btns{
+        width: 100%;
+    }
+}
+

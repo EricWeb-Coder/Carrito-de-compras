@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "sass": "^1.80.6"
+  },
+  "name": "website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch assets/scss/main.scss  assets/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

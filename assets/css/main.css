@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap");
+p,
+span,
+li,
+a {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(32, 64, 243);
+}
+
+body {
+  background-color: rgb(245, 239, 240);
+}
+
+#carrito-modal {
+  width: 100%;
+  height: 258%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1000000;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 170px;
+  text-align: center;
+  display: flex;
+}
+.modal img {
+  width: 25%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: solid 1px;
+}
+.modal input {
+  width: 30%;
+  text-align: center;
+}
+
+#carrito-items .acomodar {
+  padding-right: 160px;
+  margin-top: 80px;
+}
+#carrito-items .acomodar p {
+  margin-right: 23px;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  color: rgb(97, 88, 88);
+}
+#carrito-items .acomodar span {
+  font-weight: 800;
+  color: rgb(32, 64, 243);
+}
+#carrito-items .acomodar div {
+  text-align: left;
+}
+
+.modal-contenido {
+  background-color: rgb(242, 239, 239);
+  margin: 15px auto;
+  padding: 20px;
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.close {
+  color: #aaa;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.close:hover {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: rgb(32, 64, 243);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
+.menu img {
+  width: 210px;
+  margin: 0px 20px 0px 20px;
+  padding: 2px;
+  border-radius: 20px;
+}
+.menu ul li a svg {
+  width: 70px;
+  height: 23px;
+  margin: 20px 30px 0px 20px;
+  color: rgb(242, 239, 239);
+}
+.menu ul li a svg:hover {
+  color: rgb(20, 20, 20);
+}
+
+#main .filtros {
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+}
+#main .filtros input {
+  height: 30px;
+  margin-left: 10px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  border: solid 1px rgb(32, 64, 243);
+}
+#main .filtros input:focus {
+  border: solid gray 2px;
+  outline: none;
+}
+#main .filtros button {
+  height: 30px;
+  width: 30px;
+  margin-top: -8px;
+  transform: translateY(2px);
+}
+#main .filtros button svg {
+  width: 16px;
+  padding: 0px 2px 9px 0px;
+}
+#main .filtros select {
+  padding: 4px;
+  height: 30px;
+  border: solid rgb(32, 64, 243) 1px;
+  border-radius: 3px;
+  color: rgb(32, 64, 243);
+  font-size: 1em;
+}
+#main .productos-carrito button {
+  background-color: rgb(32, 64, 243);
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.1em;
+}
+#main .productos-carrito button:hover {
+  background-color: transparent;
+  border: solid 1px rgb(32, 64, 243);
+  color: rgb(32, 64, 243);
+}
+
+#productos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 40px;
+}
+
+.productos-carrito {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.productos-carrito figure {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.productos-carrito figure img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 20px;
+}
+.productos-carrito figure figcaption {
+  color: rgb(32, 64, 243);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  margin: 8px 0;
+  font-size: 1em;
+  line-height: 1em;
+}
+.productos-carrito .precio {
+  color: rgb(20, 20, 20);
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.productos-carrito .productos-btns input {
+  width: 40px;
+  height: 30px;
+  padding: 2px 4px;
+  text-align: center;
+  color: rgb(20, 20, 20);
+  font-weight: 600;
+}
+.productos-carrito .productos-btns button.btn-s {
+  width: 30px;
+  background-color: gray;
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+}
+.productos-carrito .productos-btns button.btn-s:hover {
+  background-color: rgb(242, 239, 239);
+  border: solid 1px gray;
+  color: gray;
+}
+.productos-carrito .productos-favorito {
+  border: none;
+  width: 30px;
+  position: absolute;
+  z-index: 10;
+}
+
+footer {
+  padding: 30px 0;
+  background-color: rgb(32, 64, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .logo-peque {
+  width: 210px;
+}
+footer svg {
+  width: 20px;
+  margin-right: 8px;
+  fill: rgb(20, 20, 20);
+}
+footer svg:hover {
+  fill: white;
+}
+footer a {
+  text-decoration: none;
+}
+footer p {
+  color: rgb(20, 20, 20);
+}
+
+.social-iconos {
+  margin-left: 25px;
+}
+
+.red-social {
+  width: 30px;
+  height: 80px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 13;
+}
+
+.red-social {
+  width: 70px;
+}
+
+.carrito-detalle {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.item-carrito {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.item-carrito img {
+  width: 200px;
+  margin-right: 40px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.item-carrito h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(97, 88, 88);
+  margin-top: 20px;
+}
+.item-carrito p {
+  margin-bottom: 5px;
+}
+.item-carrito button {
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: solid 1px rgb(32, 64, 243);
+  background-color: transparent;
+  cursor: pointer;
+}
+.item-carrito button svg {
+  fill: rgb(32, 64, 243);
+  width: 20px;
+}
+.item-carrito button svg:hover {
+  background-color: rgb(242, 241, 241);
+  border: solid 1px rgb(97, 88, 88);
+}
+
+.resaltador {
+  color: rgb(32, 64, 243);
+  font-weight: 400;
+}
+
+.boton-finalizar {
+  background-color: rgb(32, 64, 243);
+  padding: 10px;
+  border: none;
+  color: rgb(242, 239, 239);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+.boton-finalizar:hover {
+  background-color: rgb(242, 241, 241);
+  border: solid 1px rgb(32, 64, 243);
+  color: rgb(32, 64, 243);
+}
+.boton-finalizar svg {
+  width: 20px;
+  fill: rgb(97, 88, 88);
+  margin-left: 22px;
+}
+.boton-finalizar svg:hover {
+  fill: rgb(32, 64, 243);
+}
+
+@media (max-width: 992px) {
+  .productos-carrito figure {
+    width: 28%;
+  }
+  .productos-carrito figure img {
+    width: 100%;
+  }
+  .productos-carrito figure p {
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+}
+@media (max-width: 768px) {
+  .menu {
+    width: 100%;
+    overflow: hidden;
+  }
+  .menu ul {
+    width: 30%;
+  }
+  .filtros select {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .productos-carrito {
+    width: 100%;
+  }
+  .productos-carrito figure {
+    width: 70%;
+  }
+  .productos-carrito p {
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+  .productos-btns {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

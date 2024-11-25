@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+        background-color: $mainColor;
+        position:sticky;
+        top: 0;
+        left: 0;
+        z-index: 12;
+            img{
+                width: 210px;
+                margin: 0px 20px 0px 20px;
+                padding: 2px;
+                border-radius: 20px;
+                
+            }
+        ul{
+            li{
+                a{
+                    svg{
+                        width: 70px;
+                        height: 23px;
+                        margin: 20px 30px 0px 20px;
+                        color: $white;
+                        &:hover{
+                            color: $black;
+                        }
+                }
+            }
+        }
+            
+            }
+
+       
+}

@@ -1,0 +1,38 @@
+footer{
+    padding: 30px 0;
+    background-color: $mainColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo-peque{
+        width: 210px;
+    }
+    svg{
+        width: 20px;
+        margin-right: 8px;
+        fill:$black;
+        &:hover{
+            fill:white;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    p{
+        color: $black;
+    }
+}
+.social-iconos{
+    margin-left: 25px;
+}
+.red-social{
+    width: 30px;
+    height: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 13;
+}
+    .red-social{
+        width: 70px;
+    }

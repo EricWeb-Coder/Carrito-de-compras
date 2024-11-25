@@ -1,0 +1,52 @@
+#main{
+    .filtros{
+        width: 100%;
+        margin: 20px 0;
+        padding: 10px;
+        input{
+            height: 30px;
+            margin-left: 10px;
+            padding: 2px 4px;
+            border-radius: 3px;
+            border: solid 1px $mainColor;
+            &:focus{
+                border: solid gray 2px;
+                outline: none;
+            }
+        }
+        button{
+            height: 30px;
+            width: 30px;
+            margin-top: -8px;
+            transform: translateY(2px);
+            svg{
+                width: 16px;
+                padding:0px 2px 9px 0px;
+            }
+        }
+        select{
+            padding: 4px;
+            height: 30px;
+            border: solid $mainColor 1px;
+            border-radius: 3px;
+            color: $mainColor;
+            font-size: 1em;
+        }
+    }
+    .productos-carrito{
+        button{
+            background-color: $mainColor;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            color: white;
+            font-size: 1.1em;
+            &:hover{
+                background-color: transparent;
+                border: solid 1px $mainColor;
+                color: $mainColor;
+            }
+        }
+    }
+}
