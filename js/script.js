@@ -14,9 +14,6 @@ function mostrarProductos(productos){
         producto => {
             const productHTML = `
             <figure class="wow flipInY" data-wow-delayt=".5s">
-                <button class="productos-favorito">
-                    <img src="../assets/img/icons/icon-heart.svg" alt"">
-                </button>
                 <img src="${producto.imagen}">
                 <figcaption>${producto.nombre}</figcaption>
                 <p>${producto.descripcion}<p>
