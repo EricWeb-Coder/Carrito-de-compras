@@ -13,7 +13,7 @@ function mostrarProductos(productos){
     productos.forEach(
         producto => {
             const productHTML = `
-            <figure class="wow flipInY" data-wow-delayt=".5s">
+            <figure class="container-fluid wow flipInY" data-wow-delayt=".5s">
                 <img src="${producto.imagen}">
                 <figcaption>${producto.nombre}</figcaption>
                 <p>${producto.descripcion}<p>
