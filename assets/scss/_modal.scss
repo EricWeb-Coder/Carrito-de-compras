@@ -1,0 +1,42 @@
+#carrito-items{
+    .acomodar{
+        padding-right: 160px;
+        margin-top: 80px;
+        p{
+            margin-right: 23px;
+            font-size: 1.2em;
+            font-family: $mainFont;
+            color: $secondaryColor;
+        }
+        span{
+            font-weight: 800;
+            color: $mainColor;
+        }
+        div{
+            text-align: left;
+        }
+    }
+}
+.modal-contenido{
+        background-color: $white;
+        margin: 15px auto;
+        padding: 20px;
+        border: 1px solid black;
+        width: 70%;
+        border-radius: 10px;
+}
+.close{
+    color: #aaa;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    &:hover{
+        color: $black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

@@ -32,7 +32,7 @@ body {
 .modal {
   display: none;
   position: absolute;
-  z-index: 3;
+  z-index: 10000;
   top: 0;
   right: 0;
   width: 100%;
@@ -51,7 +51,6 @@ body {
   width: 30%;
   text-align: center;
 }
-
 #carrito-items .acomodar {
   padding-right: 160px;
   margin-top: 80px;
@@ -102,8 +101,10 @@ body {
   z-index: 12;
 }
 .menu img {
-  width: 50%;
+  margin-left: 30px;
+  width: 54%;
   padding: 12px;
+  height: auto;
 }
 
 #main .filtros {
@@ -260,6 +261,48 @@ footer p {
   width: 70px;
 }
 
+#carrito-items .acomodar {
+  padding-right: 160px;
+  margin-top: 80px;
+}
+#carrito-items .acomodar p {
+  margin-right: 23px;
+  font-size: 1.2em;
+  font-family: "Parkinsans", sans-serif;
+  color: rgb(97, 88, 88);
+}
+#carrito-items .acomodar span {
+  font-weight: 800;
+  color: rgb(32, 64, 243);
+}
+#carrito-items .acomodar div {
+  text-align: left;
+}
+
+.modal-contenido {
+  background-color: rgb(242, 239, 239);
+  margin: 15px auto;
+  padding: 20px;
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.close {
+  color: #aaa;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.close:hover {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media (max-width: 1596px) {
   .productos-carrito figure {
     width: 21%;
@@ -280,9 +323,9 @@ footer p {
     width: 100%;
     font-size: 0.1em;
   }
-  .btn-s-s {
+  .btn-s-s, .modal button {
     font-size: 0.9em;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 @media (max-width: 1200px) {
@@ -305,9 +348,9 @@ footer p {
     width: 100%;
     font-size: 0.1em;
   }
-  .btn-s-s {
+  .btn-s-s, .modal button {
     font-size: 0.9em;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 @media (max-width: 992px) {
@@ -330,9 +373,9 @@ footer p {
     width: 100%;
     font-size: 0.1em;
   }
-  .btn-s-s {
+  .btn-s-s, .modal button {
     font-size: 0.9em;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 @media (max-width: 768px) {
@@ -384,9 +427,9 @@ footer p {
     width: 100%;
     font-size: 0.1em;
   }
-  .btn-s-s {
+  .btn-s-s, .modal button {
     font-size: 0.9em;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 
