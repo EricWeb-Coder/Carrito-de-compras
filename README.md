@@ -36,7 +36,6 @@ Para cargar las librerias de Bootstrap y Animaciones Javascript, se coloca el sc
 - Ya tenes el archivo, pero sin el node modules
 - Ve a la terminal e instala las dependencias con npm i
 
-
 ## Licencia
 
 Eric Brian Arispe Mamani
