@@ -16,6 +16,9 @@ Este proyecto es una Landin Page de compra de Comics,donde aplico Js, aun no est
 Es Responsive para disitintos formatos.
 Se aplico Bootstrap y Sass.
 
+## Prototipo Figma
+https://www.figma.com/design/IbnPLP8bgofCcsQ1Gab7ux/Prototipo-Carrito-de-Compras?t=uiIFDNkgQhVaZDCQ-0
+
 ## Librerias
 
 - https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css -Version 5.3.3
